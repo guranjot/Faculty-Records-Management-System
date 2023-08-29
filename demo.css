@@ -1,0 +1,89 @@
+
+
+body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 95%;
+  height: 80%;
+}
+
+.action__btns {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 0 170px;
+    margin-top: 10px;
+    width: 50%;
+
+  }
+  
+  .action__btns button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid #a855f7;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+  }
+    
+  .login {
+    color: #a855f7;
+  }
+  
+  .login:hover {
+    background-color: #9333ea;
+    color: #ffffff;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+
+  .first-rectangle {
+    width: 50%; /* Adjust the width as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background color */
+    padding: 20px;
+    margin-top: 50px; /* Adjust the top margin as needed */
+    color: white;
+    text-align: center;
+  }
+
+  .second-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; /* Equal space from left and right */
+    margin-top: 5%;
+  }
+
+  .box {
+    flex: 1;
+    max-width: calc(50% - 20px);
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+  }
+  .logo{
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  .link{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .link a{
+    text-decoration: none;
+  }
