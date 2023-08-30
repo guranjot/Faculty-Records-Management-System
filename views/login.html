@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Centered Form</title>
+</head>
+<body>
+
+    <!--header-->
+    <div class="header">
+        <div class="logo">
+            <img src="logo1.png" alt="logo">
+        </div>
+        <form action="demo.html">
+            <div class="action__btns">
+          
+                <button class="login">Home</button>
+          
+            </div>
+        </form>
+        
+
+    </div>
+    
+    <!--form-->
+    <div class="container"  >
+        <form action="#">
+          <label for="uname">UserName</label>
+          <input type="text" id="uname" name="UserName" placeholder="Your UserName.." class="input-field"  required>
+      
+          <label for="pass">Password</label>
+          <input type="text" id="pass" name="Password" placeholder="Your Password.." class="input-field" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <a href="#" ><h3 style="color: blueviolet;">Forget Password</h3></a>
+            <br>
+            <br>
+          <div class="action__btns">
+          
+            <button class="login">Submit</button>
+      
+          </div>
+        </form>
+      </div>
+  <!--<div class="centered-form">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div
+-->
+</body>
+</html>

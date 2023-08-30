@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    height: 100vh;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    /* background-image: linear-gradient(to bottom, rgba(163,98,255,1),white); */
+    background-image: linear-gradient(to bottom right, rgb(87, 0, 128),rgba(226, 225, 225,0.7));
+    border: 2px solid orange;
+    border-radius: 0.6rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+    width: 15rem;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.link:hover{
+    background-color: rgb(87, 0, 128);
+}

@@ -1,0 +1,50 @@
+body
+{
+    background-image: url('bg.jpg');
+}
+.second-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 130px; /* Equal space from left and right */
+    margin-top: 5%;
+   
+  }
+
+  .box {
+    flex: 1;
+    max-width: calc(50% - 20px);
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+  }
+  .logo{
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .action__btns button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid #a855f7;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+  }
+  
+  .login {
+    color: #a855f7;
+  }
+  
+  .login:hover {
+    background-color: #9333ea;
+    color: #ffffff;
+  }
+  
