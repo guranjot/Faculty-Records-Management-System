@@ -1,3 +1,9 @@
+*{
+  margin: 0%;
+}
+body{
+
+}
 .header{
     background:linear-gradient(#e1cff2,#ebebeb) ;
     display: flex;

@@ -13,7 +13,7 @@ app.use(express.urlencoded())
 
 app.get("/",(req,res)=>{
     // res.status(200).render("home.pug");
-    res.sendFile(viewsPath+"/demo.html");
+    res.sendFile(viewsPath+"/index.html");
 })
 // app.post("/",(req,res)=>{
 //     var data = req.body
